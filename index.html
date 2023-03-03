@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Portfolio website 김태형</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                김태형
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-4-line"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-5-line"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-2-line"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-contacts-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change -->
+                <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        It’s never too late <br>
+                    </h1>
+                    <div class="home__img"><img src="assets/img/test1.png" alt="home img">
+                        <div class="home__img-title">Midjourney AI로 만든 그림입니다</div>
+                    </div>
+                    <!-- 소셜 링크 -->
+
+                    <ul class="home__social grid">
+                        <li>
+                            <a title="김태형의 깃허브" href="https://github.com/RevTK" target="_blank"
+                                class="home__social-link">
+                                <img src="assets/img/logo_github.svg" alt="" style="width: 28px;">
+                            </a>
+                            <div class="home__img-title">Github</div>
+                        </li>
+                        <li>
+                            <a title="김태형의 노션"
+                                href="https://real-sweater-99b.notion.site/Developer-Study-34172d16960849ecb9ca4815371b8ee7"
+                                target="_blank" class="home__social-link">
+                                <img src="assets/img/logo_notion.svg" alt="" style="width: 25px;">
+                            </a>
+                            <div class="home__img-title">공부모음</div>
+                        </li>
+                        <li>
+                            <a title="김태형의 이력서" href="" target="_blank" class="home__social-link">
+                                <img src="assets/img/logo_resume.svg" alt="" style="width: 28px;">
+                            </a>
+                            <div class="home__img-title">이력서</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--==================== HOME INFO-1 ====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            PHILOSOPHY
+                        </h3>
+
+                        <p class="home__info-description">
+                            항상 상대방 입장에서 <br>
+                            편한 개발보단 유저를 <br>
+                            먼저 생각합니다 <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            CONTACT
+                        </h3>
+
+                        <p class="home__info-description">
+                            서울 성북구 <br>
+                            trainst37@gmail.com <br>
+                            010-5095-0203 <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            SERVICES
+                        </h3>
+
+                        <p class="home__info-description">
+                            풀스택 개발자 <br>
+                            데이터 분석 <br>
+                        </p>
+                    </div>
+                </div>
+
+                <!--==================== HOME INFO-2 ====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            MONTHES OF EXPERIENCE
+                        </h3>
+
+                        <p class="home__info-number">
+                            05+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPLETED PROJECTS
+                        </h3>
+
+                        <p class="home__info-number">
+                            4+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPANIES WORKED
+                        </h3>
+
+                        <p class="home__info-number">
+                            신입
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== GREETING ====================-->
+        <section class="greeting section">
+            <h2 class="section__title">Greeting</h2>
+            <span class="section__subtitle">드리고 싶은 말씀</span>
+
+            <div class="container section__border">
+                <div class="greeting__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== GREETING-1 ====================-->
+                        <div class="greeting__content swiper-slide">
+                            <p class="greeting__description">
+                                “안녕하세요! 김태형입니다. <br>
+                                늦은 나이에 시작했다는 단점이 뚜렷함에도<br>
+                                관심을 가지고 방문해주셔서 진심으로 감사드립니다. <br>
+                                실패를 뒤로 하고 정신적으로 극복하여 여기까지<br>
+                                온 것에 대한 선물이라 생각합니다."<br>
+                            </p>
+                        </div>
+
+                        <!--==================== GREETING-2 ====================-->
+                        <div class="greeting__content swiper-slide">
+                            <p class="greeting__description">
+                                “30대 초반 성공 같았던 달콤함에 취하여<br>
+                                고통스러운 시간을 스스로 만들어 버렸습니다.<br>
+                                후회하지 않고 이겨내기 위해 일용직부터 편의점,<br>
+                                새벽 도매시장 등 가리지않고 일을 하며 <br>
+                                성찰과 성숙의 시간을 보냈습니다.”
+                            </p>
+                        </div>
+
+                        <!--==================== GREETING-3 ====================-->
+                        <div class="greeting__content swiper-slide">
+                            <p class="greeting__description">
+                                “제가 전공한 법학처럼 평생 공부해야 <br>
+                                한다는 점에서 비슷하지만, 비교할 수 없을만큼 <br>
+                                명확한 분야라는 점에서 제겐 큰 매력이었습니다.<br>
+                                지난 학원에서 배운 6개월은 포기하지 않고 <br>
+                                버텨온 제게 행복한 시간이었습니다."
+                            </p>
+                        </div>
+
+                        <!--==================== GREETING-4 ====================-->
+                        <div class="greeting__content swiper-slide">
+                            <p class="greeting__description">
+                                “산에서 무한히 돌을 굴리는 시지프 신처럼,<br>
+                                끝이 어떤지 알 수 없어도 더 나은 다음을 위해<br>
+                                고민하고 도전하며 배우는 삶 자체가 보람입니다. <br>
+                                이는 사뭇 개발자의 길과 비슷하다 느꼈습니다.<br>
+                                저는 이런 마음가짐으로 일하며 살아가고 싶습니다."
+                            </p>
+                        </div>
+
+                        <!--==================== GREETING-5 ====================-->
+                        <div class="greeting__content swiper-slide">
+                            <p class="greeting__description">
+                                “제 자신이 불리하다고 생각한 적은 없습니다.<br>
+                                아버지는 제게 항상 주어진 상황을 탓하지 말고 <br>
+                                겸손하고 배우는 자세로 조직체를 위해 헌신하라<br>
+                                말씀하셨고, 매일 마음 속에 되새기고 있습니다.<br>
+                                다시한번 읽어주셔서 감사드립니다."<br>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">제게 다룰줄 안다 하는 것은 오만한 생각입니다 <br> 아래는 공부하고 경험해본
+                기술입니다</span>
+            <div class="skills__container container grid section__border">
+
+                <!--==================== SKILLS-1 ====================-->
+                <div class="skills__content">
+
+                    <!--==================== SKILLS CATEGORY ====================-->
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Study
+                    </h3>
+
+                    <!--==================== SKILLS-1-1 ====================-->
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob"> <!-- 이미지 뒷배경칼라 -->
+                                <img src="assets/img/skills_java.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Java</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-1-2 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_spring.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Spring</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-1-3 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_oracle.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Oracle DB</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-1-4 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills-git.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-1-5 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_python.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS-2 ====================-->
+                <div class="skills__content">
+
+                    <!--==================== SKILLS CATEGORY ====================-->
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Study
+                    </h3>
+
+                    <!--==================== SKILLS-2-1 ====================-->
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_html.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-2-2 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_css.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-2-3 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_javascript.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-2-4 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_jquery.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">jQuery</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <!--==================== SKILLS-2-5 ====================-->
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/skills_ajax.png" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Ajax</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Education & Experience</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--==================== QUALIFICATION1 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i>Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                해외 경험
+                            </h3>
+                            <span class="qualification__country">Moscow, Russia 1991 - 1993</span>
+                            <span class="qualification__country">Paris, France 1999 - 2001</span>
+                            <span class="qualification__country">Moscow, Russia 2001 - 2002</span>
+
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                구정고등학교
+                            </h3>
+                            <span class="qualification__country">서울 압구정</span>
+                            <span class="qualification__year">2002 - 2003</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                성균관대학교 법학과
+                            </h3>
+                            <span class="qualification__country">서울 종로</span>
+                            <span class="qualification__year">2004 - 2013</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                풀스택 개발자 양성과정
+                            </h3>
+                            <span class="qualification__country">솔데스크 - 종로</span>
+                            <span class="qualification__year">2022.09 - 2023.03</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION2 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i>Work
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                학생 교육
+                            </h3>
+                            <span class="qualification__country">르노삼성자녀 영어캠프 수퍼바이저</span>
+                            <span class="qualification__country">2009</span>
+                            <span class="qualification__country">수험생 및 중학생 과외 영어/수학</span>
+                            <span class="qualification__country">2010 - 2015</span>
+                            <span class="qualification__country">리비아 대사관 자녀 가정교사 영어/불어</span>
+                            <span class="qualification__country">2014 - 2016</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                유통사업관리
+                            </h3>
+                            <span class="qualification__country">주식회사 혁신팝물류</span>
+                            <span class="qualification__year">2015 - 2017</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                축구의류 스타트업 준비 매니저
+                            </h3>
+                            <span class="qualification__country">주식회사 쿠엘</span>
+                            <span class="qualification__year">2019 - 2020</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                여성의류 창고 및 재고관리
+                            </h3>
+                            <span class="qualification__country">스튜디오 제이</span>
+                            <span class="qualification__year">2020 - 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">어떤 일을 할 수 있는가 보다<br>
+                공부한 것을 적어보았습니다</span>
+
+            <div class="services__container container grid section__border">
+                <!--==================== SERVICES-1 ====================-->
+                <div class="services__card">
+                    <i class="ri-layout-line"></i>
+                    <h2 class="services__title">
+                        Website <br>
+                        Project
+                    </h2>
+                    <p class="services__description">
+                        전자정부 프레임워크와 Spring을 통해 Web, DB, Server 기반 프로젝트를 진행하였습니다
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <!--==================== SERVICES-2 ====================-->
+                <div class="services__card">
+                    <i class="ri-code-line"></i>
+                    <h2 class="services__title">
+                        Backend<br>
+                        Basic
+                    </h2>
+                    <p class="services__description">
+                        Java의 중요성에 대해 지금도 절감하고 있고 Servlet에 대한 이해와 JSP의 기본적 사용을 훈련했습니다
+
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <!--==================== SERVICES-3 ====================-->
+                <div class="services__card">
+                    <i class="ri-file-code-line"></i>
+                    <h2 class="services__title">
+                        Frontend <br>
+                        Basic
+                    </h2>
+                    <p class="services__description">
+                        HTML,CSS,JavaScript 기초를 익히고 여러 오픈 라이브러리 사용해보며 Ajax를 적극 활용하고자 노력했습니다
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <!--==================== SERVICES-4 ====================-->
+                <div class="services__card">
+                    <i class="ri-database-2-line"></i>
+                    <h2 class="services__title">
+                        Oracle <br>
+                        Database
+                    </h2>
+                    <p class="services__description">
+                        SQL 기본 문법 사용을 훈련하고 ERD를 그려보며 관계형 데이터베이스를 충분히 이해하려 했습니다
+
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <!--==================== SERVICES-5 ====================-->
+                <div class="services__card">
+                    <i class="ri-shield-user-line"></i>
+                    <h2 class="services__title">
+                        Project <br>
+                        Manage
+                    </h2>
+                    <p class="services__description">
+                        웹개발에 있어 전체적인 틀과 과정을 이해하는 것도 중요하다 생각하여 어떠한 기획, 설계, 구현 단계가 있는지 공부했습니다
+
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <!--==================== SERVICES-6 ====================-->
+                <div class="services__card">
+                    <i class="ri-quill-pen-line"></i>
+                    <h2 class="services__title">
+                        Extra <br>
+                        Effort
+                    </h2>
+                    <p class="services__description">
+                        사람의 기억력은 유한하고 개발 분야는 광범위하기에 회사에 누를 끼치지 않고자 공부한 내용은 찾아 쓸 수 있도록 노션에 정리했습니다
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="projects__filters">
+                <span class="project__item active-project" data-filter="all">All</span>
+                <span class="project__item" data-filter=".team">Team</span>
+                <span class="project__item" data-filter=".personal">Personal</span>
+                <span class="project__item" data-filter=".etc">Etc</span>
+            </div>
+
+            <div class="projects__container container section__border grid">
+                <!--==================== PROJECTS-1 ====================-->
+                <div class="projects__content mix team">
+                    <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
+                    <span class="projects__subtitle">Team - 파이널 프로젝트</span>
+                    <h1 class="projects__title">Sports View Website</h1>
+                    <a href="#" class="projects__button">
+                        상세보기 <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <!--==================== PROJECTS-2 ====================-->
+                <div class="projects__content mix personal">
+                    <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
+
+                    <span class="projects__subtitle">Personal - 백엔드 개인 프로젝트</span>
+                    <h1 class="projects__title">Album Project</h1>
+                    <a href="#" class="projects__button">
+                        상세보기 <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <!--==================== PROJECTS-3 ====================-->
+                <div class="projects__content mix etc">
+                    <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
+
+                    <span class="projects__subtitle">Etc - 취업 준비 프로젝트</span>
+                    <h1 class="projects__title">Portfolio</h1>
+                    <a href="https://real-sweater-99b.notion.site/b3942bd856314326847bd38596fe66f3" class="projects__button">
+                        상세보기 <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <!--==================== PROJECTS-4 ====================-->
+                <div class="projects__content mix etc">
+                    <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
+
+                    <span class="projects__subtitle">Etc - 노션을 이용한 팀프로젝트 홈페이지</span>
+                    <h1 class="projects__title">Team Miracle Home</h1>
+                    <a href="#" class="projects__button">
+                        상세보기 <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <!--==================== PROJECTS-5 ====================-->
+                <div class="projects__content mix team">
+                    <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
+
+                    <span class="projects__subtitle">Team - 세미 프로젝트</span>
+                    <h1 class="projects__title">Movie Info Website</h1>
+                    <a href="https://real-sweater-99b.notion.site/Real-Movie-194b77a04e6b42a085db1511ba184ac4"
+                        target="_blank" class="projects__button">
+                        상세보기 <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
+
+            <div class="container section__border">
+                <div class="testimonial__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL-1 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                “Working with Chris is to give a good
+                                impression, I carry out my project at a good
+                                cost, with excellent quality and attention.
+                                Great service and recommended.”
+                            </p>
+                            <div>
+                                <h3 class="testimonial__name">Klay HarrisK</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--==================== TESTIMONIAL-2 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                “Working with Chris is to give a good
+                                impression, I carry out my project at a good
+                                cost, with excellent quality and attention.
+                                Great service and recommended.”
+                            </p>
+                            <div>
+                                <h3 class="testimonial__name">Mary Lens</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+
+                        <!--==================== TESTIMONIAL-3 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                “Working with Chris is to give a good
+                                impression, I carry out my project at a good
+                                cost, with excellent quality and attention.
+                                Great service and recommended.”
+                            </p>
+                            <div>
+                                <h3 class="testimonial__name">Anna Chel</h3>
+                                <span class="testimonial__subtitle">Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Swiper Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">언제나 준비하고 있습니다</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">trainst37@gmail.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Mobile</span>
+                            <span class="contact__data-info">+82 1050950203</span>
+                            <!-- Insert a real number plus country code -->
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">KakaoTalk</span>
+                            <span class="contact__data-info">@kamirou</span>
+                            <!-- Insert your brand name or profile -->
+                            <a href="https://m.me/bedimcode" target="_blank" class="contact__button">
+                                Write me <i class="ri-arrow-right-up-line"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Send me your Proposal
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="성함을 입력해주세요"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" required placeholder="이메일을 입력해주세요"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Content</label>
+                            <textarea name="user_project" placeholder="내용을 입력해주세요" class="contact__form-input"
+                                id="contact-project"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">김태형</h1>
+            <p>신입 풀스택 개발자</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+            <ul class="footer__social">
+                <a title="김태형의 깃허브" href="https://github.com/RevTK" target="_blank" class="home__social-link">
+                    <img src="assets/img/logo_github.svg" alt="" style="width: 28px;">
+                </a>
+                <a title="김태형의 노션" href="/" target="_blank" class="home__social-link">
+                    <img src="assets/img/logo_notion.svg" alt="" style="width: 25px;">
+                </a>
+                <a title="김태형의 이력서" href="" target="_blank" class="home__social-link">
+                    <img src="assets/img/logo_resume.svg" alt="" style="width: 28px;">
+                </a>
+            </ul>
+            <span class="footer__copy">
+                &#169; Copyright TAE-HYUNG KIM. All rights reserved
+            </span>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+    <!-- =============== MIXITUP FILTER (PROJECTS) =============== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
