@@ -1236,6 +1236,7 @@ body.dark-theme {
   .projects__img{
     width: 320px;
     margin-bottom: 2rem;
+    height : 210px
   }
 
   .greeting__container,
